@@ -1,0 +1,10 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color:  rgba(31, 42, 99, 1);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+}

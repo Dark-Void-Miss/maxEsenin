@@ -1,0 +1,33 @@
+.container {
+    padding-top: 235px;
+  max-width: 1000px;
+  margin: 0px auto;
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.taitl {
+    color:  rgba(255, 255, 255, 1);
+   font-size: 70px;
+width: 453.46px;
+height: 220.27px;
+}
+
+.title{
+    
+width: 453.46px;
+height: 220.27px;
+    padding-top: 80px;
+     color:  rgba(255, 255, 255, 1);
+     font-size: 40px;
+}
+
+
+.button {
+    padding: 20px 60px;
+    font-size: 30px;
+ border-radius: 11px;
+background: rgba(255, 193, 7, 1);
+}
+
