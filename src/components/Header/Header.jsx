@@ -1,19 +1,21 @@
+import { Link } from "react-router-dom";
+
 import s from "./Header.module.css";
+import { NavBar } from "./NavBar/NavBar";
 export const Header = () => {
   return (
     <>
       <header className={s.header}>
         <div className={s.container}>
           <div>
-            <img src="/public/Logo.svg" alt="" />
+            <Link to="/Home">
+              <img src="/public/Logo.svg" alt="" />
+            </Link>
           </div>
-          <div className={s.nav}>
-            <div className={s.activ}>Home</div>
-            <div>Chatacters</div>
-          </div>
+
+          <NavBar></NavBar>
         </div>
       </header>
-     
     </>
   );
 };
